@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'newcorewebapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_52ce06e889134428aebc9a77eec547f4 }}
+        publish-profile: ${{ secrets.NEWCOREWEBAPP }}
         package: .
