@@ -25,6 +25,9 @@ jobs:
     - name: Build with dotnet
       run: dotnet build MySampleWebApp/MySampleWebApp.sln --configuration Release
 
+    - name: Test
+      run: dotnet test MySampleWebAppTests1/MySampleWebAppTests1.csproj  /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=lcov
+    
     - name: dotnet publish
       run: dotnet publish MySampleWebApp/MySampleWebApp.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
