@@ -7,6 +7,7 @@ namespace MySampleWebApp
 {
     public class Calculator
     {
+        public const string defaultPwd = "SomeString";
         public int Add(int a, int b)
         {
             return a + b;

@@ -15,8 +15,14 @@ namespace MySampleWebApp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+          string constring=  Configuration.GetConnectionString("DefaultConnection");
+            sampleMethod();
         }
-
+        private void sampleMethod()
+        {
+            Calculator calc = new Calculator();
+            int result = calc.Add(3, 4);
+        }
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
