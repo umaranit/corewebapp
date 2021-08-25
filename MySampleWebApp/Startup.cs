@@ -14,6 +14,15 @@ namespace MySampleWebApp
     {
         public Startup(IConfiguration configuration)
         {
+            string xyz = "";
+            if (xyz == "")
+            {
+
+            }
+            else
+            {
+
+            }
             Configuration = configuration;
           string constring=  Configuration.GetConnectionString("DefaultConnection");
             sampleMethod();
