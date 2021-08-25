@@ -2,6 +2,6 @@ name: "Security and Quality"
 
 queries:
   - uses: security-and-quality
-  - uses: - uses: ./.github/codeql/custom-queries/python
+  - uses: - uses: ./.github/codeql/custom-queries/csharp
   
   
