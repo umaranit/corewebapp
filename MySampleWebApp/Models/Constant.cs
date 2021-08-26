@@ -7,6 +7,7 @@ namespace MySampleWebApp.Models
 {
     public class Constant
     {
-        public const string DefaultCertificatePaaword = "SomeString";
+        public const string DefaultCertificatePassword = "SomeString";
+        public const string MyPassword = "SomeString";
     }
 }
