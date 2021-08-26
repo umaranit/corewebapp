@@ -2,8 +2,8 @@ name: codeql/csharp-queries
 version: 0.0.2
 #libraryPathDependencies:
 #- codeql-charp
-#suites: codeql-suites
-#extractor: csharp
+suites: codeql-suites
+extractor: csharp
 #dependencies:
  # codeql/csharp-all: ^0.0.2
   #codeql/suite-helpers: ^0.0.2
