@@ -8,7 +8,7 @@ namespace MySampleWebApp
 {
     public class Calculator
     {
-        public const string defaultPwd = "SomeString";
+        public const string password = "SomeString";
         public int Add(int a, int b)
         {
             if (a==b)
