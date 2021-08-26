@@ -19,7 +19,7 @@ namespace MySampleWebApp
             {
 
             }
-            string pwd = Constant.DefaultCertificatePaaword;
+            string pwd = Constant.DefaultCertificatePassword;
             return a + b;
         }
         public int Subtract(int a, int b)
